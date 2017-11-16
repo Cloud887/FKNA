@@ -1,2 +1,2 @@
 # FKNA
-Build a think using FireBase, Koa, Node &amp; Angular. Why? because why not. 
+Build a thing using FireBase, Koa, Node &amp; Angular. Why? because why not. 
