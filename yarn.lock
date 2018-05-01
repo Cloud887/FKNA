@@ -109,22 +109,6 @@
   version "0.2.8"
   resolved "https://registry.yarnpkg.com/@firebase/webchannel-wrapper/-/webchannel-wrapper-0.2.8.tgz#38a936b60b898a1ad0f3719543ff1a1031f60f8b"
 
-"@progress/kendo-base-component-react-wrapper@2018.1.221":
-  version "2018.1.221"
-  resolved "https://registry.yarnpkg.com/@progress/kendo-base-component-react-wrapper/-/kendo-base-component-react-wrapper-2018.1.221.tgz#1be470e39180a8edf99afce9c5d221b22c48cf1e"
-
-"@progress/kendo-scheduler-react-wrapper@^2018.1.221":
-  version "2018.1.221"
-  resolved "https://registry.yarnpkg.com/@progress/kendo-scheduler-react-wrapper/-/kendo-scheduler-react-wrapper-2018.1.221.tgz#7e5e18c4a655057ff353dafb4b2d5d7af8e0be28"
-  dependencies:
-    "@progress/kendo-base-component-react-wrapper" "2018.1.221"
-
-"@progress/kendo-ui@^2018.1.226":
-  version "2018.1.425"
-  resolved "https://registry.yarnpkg.com/@progress/kendo-ui/-/kendo-ui-2018.1.425.tgz#590721eaf67850b92a5656f161b9b6db4b6c5af1"
-  dependencies:
-    jquery "<=3"
-
 abab@^1.0.3:
   version "1.0.4"
   resolved "https://registry.yarnpkg.com/abab/-/abab-1.0.4.tgz#5faad9c2c07f60dd76770f71cf025b62a63cfd4e"
@@ -3982,10 +3966,6 @@ jest@^20.0.4:
   dependencies:
     jest-cli "^20.0.4"
 
-jquery@<=3:
-  version "3.3.1"
-  resolved "https://registry.yarnpkg.com/jquery/-/jquery-3.3.1.tgz#958ce29e81c9790f31be7792df5d4d95fc57fbca"
-
 js-base64@^2.1.8, js-base64@^2.1.9:
   version "2.4.3"
   resolved "https://registry.yarnpkg.com/js-base64/-/js-base64-2.4.3.tgz#2e545ec2b0f2957f41356510205214e98fad6582"
@@ -4566,10 +4546,6 @@ mixin-deep@^1.2.0:
   resolved "https://registry.yarnpkg.com/mkdirp/-/mkdirp-0.5.1.tgz#30057438eac6cf7f8c4767f38648d6697d75c903"
   dependencies:
     minimist "0.0.8"
-
-moment@^2.20.1:
-  version "2.22.1"
-  resolved "https://registry.yarnpkg.com/moment/-/moment-2.22.1.tgz#529a2e9bf973f259c9643d237fda84de3a26e8ad"
 
 ms@2.0.0:
   version "2.0.0"

@@ -6,8 +6,6 @@
   "author": "Jacob M-G Evans <jacobmgevans@gmail.com>",
   "license": "MIT",
   "dependencies": {
-    "@progress/kendo-scheduler-react-wrapper": "^2018.1.221",
-    "@progress/kendo-ui": "^2018.1.226",
     "babel": "^6.23.0",
     "babel-core": "^6.25.0",
     "babel-loader": "^7.1.1",
@@ -18,7 +16,6 @@
     "express": "^4.16.2",
     "firebase": "^4.10.1",
     "koa": "^2.5.0",
-    "moment": "^2.20.1",
     "node-sass": "^4.5.3",
     "react": "^15.6.1",
     "react-dom": "^15.6.1",
