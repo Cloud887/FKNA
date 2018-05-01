@@ -6,8 +6,6 @@
   "author": "Jacob M-G Evans <jacobmgevans@gmail.com>",
   "license": "MIT",
   "dependencies": {
-    "firebase": "^4.10.1",
-    "koa": "^2.5.0",
     "@progress/kendo-scheduler-react-wrapper": "^2018.1.221",
     "@progress/kendo-ui": "^2018.1.226",
     "babel": "^6.23.0",
@@ -18,6 +16,8 @@
     "babel-preset-react": "^6.24.1",
     "dotenv": "^4.0.0",
     "express": "^4.16.2",
+    "firebase": "^4.10.1",
+    "koa": "^2.5.0",
     "moment": "^2.20.1",
     "node-sass": "^4.5.3",
     "react": "^15.6.1",
@@ -29,7 +29,6 @@
     "superagent": "^3.5.2"
   },
   "devDependencies": {
-    "parcel-bundler": "^1.6.2",
     "babel-jest": "^20.0.3",
     "babel-plugin-transform-class-properties": "^6.24.1",
     "babel-plugin-transform-react-jsx": "^6.24.1",
@@ -40,6 +39,7 @@
     "eslint-plugin-import": "^2.7.0",
     "eslint-plugin-jsx-a11y": "^5.1.1",
     "eslint-plugin-react": "^7.1.0",
-    "jest": "^20.0.4"
+    "jest": "^20.0.4",
+    "parcel-bundler": "^1.6.2"
   }
 }
