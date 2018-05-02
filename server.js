@@ -6,7 +6,7 @@ const app = new Koa();
 const PORT = process.env.PORT;
 const AMAZON_API_SERVER = process.env.AMAZON_API_URL;
 
-//If superagent doesnt work with Koa refactor to Express.
+//If superagent doesnt work with Koa refactor to Express. Figure out how the context Koa might work with superagent
 app.use(async (ctx, next) => {
   console.log('REQUEST HERE', ctx.request, 'RESPONSE HERE', ctx.response);
 });
