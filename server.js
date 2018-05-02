@@ -6,10 +6,11 @@ const app = new Koa();
 const PORT = process.env.PORT;
 
 app.use(async (ctx, next) => {
-  const start = Date.now();
-  await next();
-  const ms = Date.now() - start;
-  console.log(ms);
+  console.log('REQUEST HERE', ctx.request, 'RESPONSE HERE', ctx.response);
+});
+
+app.on('error', err => {
+  log.error('server error', err);
 });
 
 app.listen(PORT);

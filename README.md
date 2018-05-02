@@ -9,3 +9,6 @@ Ideally the application will take in the current cost of electric utilities focu
 which would then output projected future savings and the the amount of revenue saved overtime vs the initial cost of the alternative lightbulbs or other utilities.
 
 I would like to use D3 to give visual representation of the data in a way that is meaningful and can be dynamic as alternative sources are picked from, such as various kinds of lightbulbs and also various kinds of utlities i.e. the solar panels (can be small window cill ones).
+
+Amazon API for the prices of various utilities.
+Research for an API that will have information on the various utilities specifications.
