@@ -1,6 +1,6 @@
-import React, { PureComponent } from 'react';
+import React, { Component } from 'react';
 
-export default class Home extends PureComponent {
+export default class Home extends Component {
   constructor(props, context) {
     super(props, context);
     this.state({
