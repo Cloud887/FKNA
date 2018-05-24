@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 
-export default class Home extends Component {
+class Home extends Component {
   constructor(props, context) {
     super(props, context);
     this.state({
@@ -24,8 +24,10 @@ export default class Home extends Component {
         <header />
         <h1>The LightHouse</h1>
 
-        <div>${this.props.parsedUtils}</div>
+        <div>${this.props.handleParsingofUtilities(arrayOfLightBulbs)}</div>
       </div>
     );
   }
 }
+
+export default Home;

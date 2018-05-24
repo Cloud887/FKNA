@@ -1,3 +1,7 @@
+# PARCEL
+dist
+.cache
+
 db
 .env
 node_modules/
