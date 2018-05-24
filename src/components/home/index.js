@@ -1,7 +1,6 @@
 import React, { PureComponent } from 'react';
-import ReactDom from 'react-dom';
 
-export default class App extends PureComponent {
+export default class Home extends PureComponent {
   constructor(props, context) {
     super(props, context);
     this.state({
@@ -30,6 +29,3 @@ export default class App extends PureComponent {
     );
   }
 }
-
-const container = document.getElementById('root');
-ReactDom.render(<App />, container);
