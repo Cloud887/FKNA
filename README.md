@@ -1,4 +1,4 @@
-# FKNA LightHouse
+#LightBulb
 
 Build an application using FireBase, Koa, Node &amp; The Angular will likely be a small portion of the project.
 
